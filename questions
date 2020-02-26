@@ -1,0 +1,6 @@
+1)Le code ne respecte pas le principe ISP car les fonctions scan(),copy() et fax() me fonctionnent pas car elles retournent 
+qu'une exception.On risque donc d'appeler ces fonctions qui ne servent à rien
+
+2)La modification de la méthode fax ne changera rien car le programme ne marchera pas si on appel la fonction fax.
+
+3)Pour que le programme respecte le principe ISP, il faudrait crée quatres classes contenant chacune qu'une seule fonction.
